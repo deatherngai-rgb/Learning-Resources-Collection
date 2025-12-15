@@ -1,0 +1,50 @@
+一、官方核心资源
+
+1.Playwrigh 系统性学习资源和实战路径
+-Python版: playwright.dev/python/docs
+-API速查: 重点掌握Page和Locator类，这是Playwright的核心
+-官方示例库: github.com/microsoft/playwright-python
+
+2. Playwright GitHub仓库
+-主仓库: github.com/microsoft/playwright
+-包含大量测试用例和示例代码，是最佳学习素材
+
+
+二、开源实战项目
+1. gpt-crawler (推荐⭐⭐⭐⭐⭐)
+项目地址: GitHub搜索gpt-crawler
+特点: 基于Playwright的智能文档爬取工具，支持React/Vue动态页面
+实战价值: 配置即用，支持登录认证、反爬策略、AI知识库生成
+技术栈: Node.js + Playwright，适合学习现代爬虫架构
+
+1. gpt-crawler (推荐⭐⭐⭐⭐⭐)
+项目地址: GitHub搜索gpt-crawler
+特点: 基于Playwright的智能文档爬取工具，支持React/Vue动态页面
+实战价值: 配置即用，支持登录认证、反爬策略、AI知识库生成
+技术栈: Node.js + Playwright，适合学习现代爬虫架构
+2. Devika (高级实战)
+项目地址: gitcode.com/GitHub_Trending/de/devika
+特点: AI智能体项目，深度集成Playwright做网页导航
+学习点: 处理复杂导航协议错误、会话持久化、代理配置
+3. crifanPlaywright (Python工具库)
+项目地址: github.com/crifan/crifanLibPython
+特点: 封装了常用爬虫功能，适合参考代码设计模式
+
+三、免费实践靶场与练习网站
+1. 官方推荐测试网站
+DemoQA: demoqa.com - 表单、弹窗、iframe等完整场景
+the-internet: the-internet.herokuapp.com - 经典自动化测试靶场
+Sauce Labs Demo: saucedemo.com - 电商场景，适合练习登录、购物车流程
+
+2. 自建本地靶场
+Playwright官方测试页: npx playwright install后，使用page.goto('about:blank')创建空白页进行DOM操作练习
+静态HTML文件: 自己编写包含各种元素（shadow DOM、iframe、动态加载）的测试页面
+
+3. 真实网站练习（低风险）
+eBay商品搜索: 搜索结果丰富，可练习分页、动态加载
+Hacker News: 结构简单，适合初学数据抓取
+测试工具: 使用playwright codegen命令录制任意网站操作，自动生成代码
+
+调试工具	Codegen/Inspector/Trace Viewer	仅截图	强烈推荐：playwright codegen和playwright show-trace
+
+
