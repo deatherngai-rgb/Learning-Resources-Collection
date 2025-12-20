@@ -17,11 +17,6 @@
 实战价值: 配置即用，支持登录认证、反爬策略、AI知识库生成
 技术栈: Node.js + Playwright，适合学习现代爬虫架构
 
-1. gpt-crawler (推荐⭐⭐⭐⭐⭐)
-项目地址: GitHub搜索gpt-crawler
-特点: 基于Playwright的智能文档爬取工具，支持React/Vue动态页面
-实战价值: 配置即用，支持登录认证、反爬策略、AI知识库生成
-技术栈: Node.js + Playwright，适合学习现代爬虫架构
 2. Devika (高级实战)
 项目地址: gitcode.com/GitHub_Trending/de/devika
 特点: AI智能体项目，深度集成Playwright做网页导航
